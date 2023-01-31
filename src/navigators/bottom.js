@@ -7,19 +7,8 @@ import HomeScreen from './src/screen/home';
 export default function App() {
   const Tab = createBottomTabNavigator();
   return (
-    <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen name='Home' component={HomeScreen}/>
-      </Tab.Navigator>
-    </NavigationContainer>
+    <Tab.Navigator>
+        <Tab.Screen
+    </Tab.Navigator>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
