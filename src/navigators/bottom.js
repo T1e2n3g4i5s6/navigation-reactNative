@@ -1,14 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeScreen from './src/screen/home';
+// import { StatusBar } from 'expo-status-bar';
+// import { StyleSheet, Text, View } from 'react-native';
+// import { NavigationContainer } from '@react-navigation/native';
+// import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+// import HomeScreen from './src/screen/home';
 
-export default function App() {
-  const Tab = createBottomTabNavigator();
-  return (
-    <Tab.Navigator>
-        <Tab.Screen
-    </Tab.Navigator>
-  );
-}
+// const Tab = createBottomTabNavigator();
+
+// const Bottom = () => {
+//   return (
+//     <Tab.Navigator>
+//       <Tab.Screen name='Home' component={HomeScreen} options={{headerShown:false}}/>
+//     </Tab.Navigator>
+//   );
+// }
+// export default Bottom;

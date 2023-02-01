@@ -1,13 +1,16 @@
-import { createStackNavigator } from "@react-navigation/stack";
-import DetailScreen from "../screen/detail";
-const Mystack = () => {
-    const Stack = createStackNavigator();
-    return(
-        <Stack.Navigator>
-            <Stack.Screen name="Bottom" component={}/>
+// import { createStackNavigator } from '@react-navigation/stack';
+// import HomeScreen from '../screen/home';
 
-            <Stack.Screen name="Detail" component={DetailScreen}/>
-        </Stack.Navigator>
-    )
-}
-export default Mystack;
+// const Stack = createStackNavigator();
+
+// function MyStack() {
+//   return (
+//     <Stack.Navigator>
+//       <Stack.Screen name="Home" component={HomeScreen} />
+//       <Stack.Screen name="Notifications" component={Notifications} />
+//       <Stack.Screen name="Profile" component={Profile} />
+//       <Stack.Screen name="Settings" component={Settings} />
+//     </Stack.Navigator>
+//   );
+// }
+// export default MyStack;
